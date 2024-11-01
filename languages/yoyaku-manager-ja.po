@@ -1,0 +1,1744 @@
+# Copyright (C) 2024 Allneko Club Inc.
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Yoyaku Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yoyaku-manager-"
+"pro\n"
+"POT-Creation-Date: 2024-09-27T01:23:01+00:00\n"
+"PO-Revision-Date: 2024-09-27 10:28+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: yoyaku-manager\n"
+
+#. Plugin Name of the plugin
+msgid "Yoyaku Manager Pro"
+msgstr "予約マネージャー Pro"
+
+#. Plugin URI of the plugin
+msgid "https://yoyaku-manager.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Yoyaku Manager is for managing events and bookings, etc."
+msgstr "Yoyaku Managerはイベントなどの予約を管理するためのプラグインです。"
+
+#. Author of the plugin
+msgid "Allneko Club"
+msgstr "Allneko Club"
+
+#. Author URI of the plugin
+msgid "https://allneko.club"
+msgstr ""
+
+#: src/Application/Customer/CustomersController.php:103
+#: src/Application/EventType/EventBooking/EventBookingsController.php:244
+#: src/Domain/Customer/CustomerService.php:43
+msgid "This email is already in use."
+msgstr "このメールアドレスは既に利用されています。"
+
+#: src/Application/Customer/CustomersController.php:151
+#: src/Application/EventType/EventBooking/EventBookingsController.php:560
+#: src/Domain/Customer/Customer.php:335
+#: src/Domain/EventType/EventBooking/EventBooking.php:589
+#: build/gutenberg-blocks/event/view.js:173 buildre/index.js:173
+#: buildre/index.js:175 buildre/index.js:181
+msgid "Phone"
+msgstr "電話番号"
+
+#: src/Application/Customer/CustomersController.php:152
+#: src/Application/EventType/EventBooking/EventBookingsController.php:561
+#: src/Domain/Customer/Customer.php:333
+#: src/Domain/EventType/EventBooking/EventBooking.php:587
+#: build/gutenberg-blocks/event/view.js:173 buildre/index.js:173
+#: buildre/index.js:175
+msgid "First Name Ruby"
+msgstr "ふりがな（姓）"
+
+#: src/Application/Customer/CustomersController.php:153
+#: src/Application/EventType/EventBooking/EventBookingsController.php:562
+#: src/Domain/Customer/Customer.php:334
+#: src/Domain/EventType/EventBooking/EventBooking.php:588
+#: build/gutenberg-blocks/event/view.js:173 buildre/index.js:173
+#: buildre/index.js:175
+msgid "Last Name Ruby"
+msgstr "ふりがな（名）"
+
+#: src/Application/Customer/CustomersController.php:154
+#: src/Application/EventType/EventBooking/EventBookingsController.php:563
+#: src/Domain/Customer/Customer.php:336
+#: src/Domain/EventType/EventBooking/EventBooking.php:590
+#: build/gutenberg-blocks/event/view.js:173 buildre/index.js:173
+#: buildre/index.js:175 buildre/index.js:181
+msgid "Birthday"
+msgstr "生年月日"
+
+#: src/Application/Customer/CustomersController.php:155
+#: src/Application/EventType/EventBooking/EventBookingsController.php:564
+#: src/Domain/Customer/Customer.php:337
+#: src/Domain/EventType/EventBooking/EventBooking.php:591
+#: build/gutenberg-blocks/event/view.js:173 buildre/index.js:173
+#: buildre/index.js:175 buildre/index.js:181
+msgid "Gender"
+msgstr "性別"
+
+#: src/Application/Customer/CustomersController.php:156
+#: src/Application/EventType/EventBooking/EventBookingsController.php:565
+#: src/Domain/Customer/Customer.php:338
+#: src/Domain/EventType/EventBooking/EventBooking.php:592
+#: build/gutenberg-blocks/event/view.js:173 buildre/index.js:173
+#: buildre/index.js:175 buildre/index.js:181
+msgid "Zipcode"
+msgstr "郵便番号"
+
+#: src/Application/Customer/CustomersController.php:157
+#: src/Application/EventType/EventBooking/EventBookingsController.php:566
+#: src/Domain/Customer/Customer.php:339
+#: src/Domain/EventType/EventBooking/EventBooking.php:593
+#: build/gutenberg-blocks/event/view.js:173 buildre/index.js:173
+#: buildre/index.js:175 buildre/index.js:181
+msgid "Address"
+msgstr "住所"
+
+#: src/Application/EventType/EventBooking/EventBookingApplicationService.php:63
+msgid "Selected ticket does not exist."
+msgstr "選択したチケットは存在しません。"
+
+#. translators: %s ticket name
+#: src/Application/EventType/EventBooking/EventBookingApplicationService.php:120
+msgid "%s is sold out. Please enter it again."
+msgstr "%sは売り切れです。再度、入力し直してください。"
+
+#: src/Application/EventType/EventBooking/EventBookingApplicationService.php:130
+msgid "This event is full."
+msgstr "このイベントは満員です。"
+
+#: src/Application/EventType/EventBooking/EventBookingApplicationService.php:168
+#: src/Application/EventType/EventBooking/EventBookingQuery.php:167
+msgid "It is past cancellation due date."
+msgstr "キャンセル受付締切り日時を過ぎています。"
+
+#: src/Application/EventType/EventBooking/EventBookingApplicationService.php:173
+#: src/Application/EventType/EventBooking/EventBookingQuery.php:169
+msgid "This booking has already been canceled."
+msgstr "この予約は既にキャンセルされています。"
+
+#: src/Application/EventType/EventBooking/EventBookingApplicationService.php:175
+#: src/Application/EventType/EventBooking/EventBookingQuery.php:171
+msgid "This booking has already been disapproved."
+msgstr "この予約は非承認になっています。"
+
+#: src/Application/EventType/EventBooking/EventBookingsController.php:143
+#: src/Application/EventType/EventBooking/EventBookingsController.php:436
+msgid "You are already booked."
+msgstr "既に予約済みです。"
+
+#: src/Application/EventType/EventBooking/EventBookingsController.php:407
+msgid "This event has ended."
+msgstr "このイベントは終了しました。"
+
+#. translators: %d is replaced with "number"
+#: src/Application/EventType/EventBooking/EventBookingsController.php:421
+msgid "Exceeds the upper limit. Please keep the total below %d."
+msgstr "購入上限数を超えています。%d以下にしてください。"
+
+#: src/Application/EventType/EventBooking/EventBookingsController.php:456
+msgid "Payment failed."
+msgstr "支払いに失敗しました。"
+
+#: src/Application/EventType/EventBooking/EventBookingsController.php:649
+#: build/gutenberg-blocks/event/view.js:175
+msgid "Please select a ticket."
+msgstr "チケットを選んでください。"
+
+#: src/Domain/Customer/Customer.php:330
+#: src/Domain/EventType/EventBooking/EventBooking.php:584
+#: build/gutenberg-blocks/event/view.js:173 buildre/index.js:173
+#: buildre/index.js:175 buildre/index.js:181
+msgid "Email"
+msgstr "メールアドレス"
+
+#: src/Domain/Customer/Customer.php:331
+#: src/Domain/EventType/EventBooking/EventBooking.php:585
+#: build/gutenberg-blocks/event/view.js:173 buildre/index.js:173
+#: buildre/index.js:175
+msgid "First Name"
+msgstr "名前（姓）"
+
+#: src/Domain/Customer/Customer.php:332
+#: src/Domain/EventType/EventBooking/EventBooking.php:586
+#: build/gutenberg-blocks/event/view.js:173 buildre/index.js:173
+#: buildre/index.js:175
+msgid "Last Name"
+msgstr "名前（名）"
+
+#: src/Domain/Customer/Customer.php:340
+#: src/Domain/EventType/EventBooking/EventBooking.php:594 buildre/index.js:173
+#: buildre/index.js:175
+msgid "Memo"
+msgstr "メモ"
+
+#: src/Domain/Customer/Customer.php:341 buildre/index.js:175
+msgid "Registered"
+msgstr "登録日時"
+
+#: src/Domain/Customer/Gender.php:22 build/gutenberg-blocks/event/view.js:171
+#: buildre/index.js:171
+msgid "Male"
+msgstr "男性"
+
+#: src/Domain/Customer/Gender.php:23 build/gutenberg-blocks/event/view.js:171
+#: buildre/index.js:171
+msgid "Female"
+msgstr "女性"
+
+#: src/Domain/EventType/EventBooking/BookingStatus.php:23
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgid "Approved"
+msgstr "承認済み"
+
+#: src/Domain/EventType/EventBooking/BookingStatus.php:24
+#: src/Domain/Payment/PaymentStatus.php:23
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgid "Pending"
+msgstr "保留"
+
+#: src/Domain/EventType/EventBooking/BookingStatus.php:25
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgid "Canceled"
+msgstr "キャンセル済み"
+
+#: src/Domain/EventType/EventBooking/BookingStatus.php:26
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgid "Disapproved"
+msgstr "不承認"
+
+#: src/Domain/EventType/EventBooking/EventBooking.php:579 buildre/index.js:175
+msgid "Event Name"
+msgstr "イベント名"
+
+#: src/Domain/EventType/EventBooking/EventBooking.php:580 buildre/index.js:175
+msgid "Start DateTime"
+msgstr "開始日時"
+
+#: src/Domain/EventType/EventBooking/EventBooking.php:581
+msgid "Customer ID"
+msgstr "顧客 ID"
+
+#: src/Domain/EventType/EventBooking/EventBooking.php:582
+msgid "Period ID"
+msgstr "期間 ID"
+
+#: src/Domain/EventType/EventBooking/EventBooking.php:583
+msgid "Booking Status"
+msgstr "予約ステータス"
+
+#: src/Domain/EventType/EventBooking/EventBooking.php:595 buildre/index.js:173
+msgid "Payment Status"
+msgstr "支払いステータス"
+
+#: src/Domain/EventType/EventBooking/EventBooking.php:596 buildre/index.js:173
+#: buildre/index.js:175
+msgid "Gateway"
+msgstr "ゲートウェイ"
+
+#: src/Domain/EventType/EventBooking/EventBooking.php:597
+#: build/gutenberg-blocks/event/view.js:176 buildre/index.js:175
+msgid "Payment Amount"
+msgstr "支払い金額"
+
+#: src/Domain/EventType/EventBooking/EventBooking.php:598 buildre/index.js:175
+msgid "Transaction ID"
+msgstr "トランザクション ID"
+
+#: src/Domain/EventType/EventBooking/EventBooking.php:599 buildre/index.js:175
+msgid "Created"
+msgstr "作成日時"
+
+#: src/Domain/Payment/GatewayType.php:21
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgid "On Site"
+msgstr "開催地"
+
+#: src/Domain/Payment/GatewayType.php:22
+msgid "Stripe"
+msgstr ""
+
+#: src/Domain/Payment/PaymentStatus.php:22
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgid "Paid"
+msgstr "支払い済み"
+
+#: src/Domain/Payment/PaymentStatus.php:24
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgid "Refunded"
+msgstr "返金"
+
+#: src/Infrastructure/Services/License/YoyakuLicenseManager.php:40
+#: src/Infrastructure/Services/License/YoyakuLicenseManager.php:78
+#: src/Infrastructure/Services/License/YoyakuLicenseManager.php:111
+#: src/Infrastructure/Services/License/YoyakuLicenseManager.php:150
+msgid "An error occurred, please try again."
+msgstr "エラーが発生しました。もう一度やり直してください。"
+
+#. translators: the license key expiration date
+#: src/Infrastructure/Services/License/YoyakuLicenseManager.php:48
+msgid "Your license key expired on %s."
+msgstr "ライセンス キーは %s に期限切れになります。"
+
+#: src/Infrastructure/Services/License/YoyakuLicenseManager.php:55
+msgid "Your license key has been disabled."
+msgstr "ライセンス キーが無効になっています。"
+
+#: src/Infrastructure/Services/License/YoyakuLicenseManager.php:59
+msgid "Invalid license."
+msgstr "不正なライセンスです。"
+
+#: src/Infrastructure/Services/License/YoyakuLicenseManager.php:63
+msgid "Your license is not active."
+msgstr "ライセンスが有効ではありません。"
+
+#: src/Infrastructure/Services/License/YoyakuLicenseManager.php:66
+msgid "License site is inactive."
+msgstr "ライセンス サイトがアクティブではありません。"
+
+#: src/Infrastructure/Services/License/YoyakuLicenseManager.php:70
+msgid "This appears to be an invalid license key."
+msgstr "無効なライセンス キーのようです。"
+
+#: src/Infrastructure/Services/License/YoyakuLicenseManager.php:74
+msgid "Your license key has reached its activation limit."
+msgstr "ライセンス キーがアクティベーション制限に達しています。"
+
+#: src/Infrastructure/Services/License/YoyakuLicenseManager.php:134
+msgid "Failed to deactivate."
+msgstr "無効化に失敗しました。"
+
+#. translators: the plugin name.
+#: src/Infrastructure/Services/License/YoyakuPluginUpdater.php:285
+msgid "There is a new version of %1$s available."
+msgstr "%1$s の新バージョンがリリースされました。"
+
+#: src/Infrastructure/Services/License/YoyakuPluginUpdater.php:291
+msgid "Contact your network administrator to install the update."
+msgstr "ネットワーク管理者に連絡して、更新をインストールしてください。"
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin version 3. closing anchor tag, do not translate.
+#: src/Infrastructure/Services/License/YoyakuPluginUpdater.php:296
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$sバージョンの詳細情報%2$sをご確認ください%3$s。"
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin version 3. closing anchor tag, do not translate 4. opening anchor tag, do not translate 5. closing anchor tag, do not translate.
+#: src/Infrastructure/Services/License/YoyakuPluginUpdater.php:305
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr ""
+"%1$sバージョンの詳細情報%2$sをご確認いただくか%3$s%4$s今すぐ更新%5$sしてくだ"
+"さい。"
+
+#: src/Infrastructure/Services/License/YoyakuPluginUpdater.php:316
+msgid "Update now."
+msgstr "今すぐ更新してください。"
+
+#: src/Infrastructure/Services/License/YoyakuPluginUpdater.php:553
+msgid "You do not have permission to install plugin updates."
+msgstr "プラグインの更新をインストールする権限がありません。"
+
+#: src/Infrastructure/Services/License/YoyakuPluginUpdater.php:553
+msgid "Error"
+msgstr "エラー"
+
+#. translators: %s is placeholder
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:74
+msgid "Dear %s,"
+msgstr "%s 様"
+
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:78
+msgid "Booking Approved"
+msgstr "予約 承認"
+
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:80
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:83
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:92
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:94
+msgid "Thank you for your booking."
+msgstr "この度はご予約いただき、ありがとうございます。"
+
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:84
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:96
+msgid "The reservation details are as follows."
+msgstr "ご予約内容は下記のとおりです。"
+
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:86
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:98
+msgid "Event Date:"
+msgstr "イベントの日時："
+
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:87
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:99
+msgid "Event Location:"
+msgstr "イベントの開催地："
+
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:90
+msgid "Booking Pending"
+msgstr "予約 保留"
+
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:95
+msgid "This booking is waiting for a confirmation."
+msgstr "この予約は現在承認待ちです。"
+
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:102
+msgid "Booking Canceled"
+msgstr "予約 キャンセル"
+
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:104
+msgid "Booking Canceled."
+msgstr "予約をキャンセルしました。"
+
+#. translators: %s is placeholder
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:108
+msgid "Your %s event booking has been canceled."
+msgstr "％sの予約をキャンセルしました。"
+
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:111
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:123
+msgid "We hope to have the opportunity to serve you again."
+msgstr "またのご利用をお待ちしております。"
+
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:114
+msgid "Booking Disapproved"
+msgstr "予約 不承認"
+
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:116
+msgid "Booking Disapproved."
+msgstr "予約が承認されませんでした。"
+
+#. translators: %s is placeholder
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:120
+msgid "Your %s event booking has been disapproved."
+msgstr "%sの予約をキャンセルしました。"
+
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:128
+msgid "Event Next Day Reminder"
+msgstr "前日リマインダー"
+
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:130
+msgid "Event Reminder"
+msgstr "イベントリマインダー"
+
+#. translators: %s is placeholder
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:134
+msgid "We would like to remind you that you have event tomorrow at %s."
+msgstr "明日、%sからイベントがあることをお知らせします。"
+
+#: src/Infrastructure/Tables/Notification/NotificationsTable.php:137
+msgid "We are waiting for you."
+msgstr "当日、お待ちしております。"
+
+#: src/Infrastructure/WP/BlockService/CancelBookingBlockService.php:40
+msgid "This booking was not found."
+msgstr "予約が見つかりませんでした。"
+
+#: src/Infrastructure/WP/BlockService/EventBlockService.php:32
+msgid "Event ID is not set."
+msgstr "イベントIDがセットされていません。"
+
+#: src/Infrastructure/WP/BlockService/EventBlockService.php:47
+msgid "Stripe setting is insufficient."
+msgstr "Stripeの設定が不十分です。"
+
+#: src/Infrastructure/WP/BlockService/EventBlockService.php:57
+msgid "There are no tickets."
+msgstr "チケットが存在しません。"
+
+#: src/Infrastructure/WP/BlockService/EventBlockService.php:71
+msgid "No events found."
+msgstr "イベントが見つかりませんでした。"
+
+#: src/Infrastructure/WP/BlockService/EventBlockService.php:77
+msgid "Failed while retrieving event data."
+msgstr "イベントデータの取得失敗しました。"
+
+#: src/Infrastructure/WP/DB.php:63
+msgid "Delete data error: "
+msgstr "データの削除に失敗しました："
+
+#: src/Infrastructure/WP/DB.php:81
+msgid "Get data error: "
+msgstr "データの取得に失敗しました："
+
+#: src/Infrastructure/WP/DB.php:101
+msgid "Data not found."
+msgstr "データが見つかりませんでした。"
+
+#: src/Infrastructure/WP/DB.php:142
+msgid "Add data error:"
+msgstr "データの追加に失敗しました："
+
+#: src/Infrastructure/WP/DB.php:185
+msgid "Update data error: "
+msgstr "データの更新に失敗しました："
+
+#: src/Infrastructure/WP/RolesAndCaps.php:62
+msgid "Yoyaku Worker"
+msgstr "Yoyaku従業員"
+
+#: src/Infrastructure/WP/RolesAndCaps.php:79
+msgid "Yoyaku Manager"
+msgstr "Yoyakuマネージャー"
+
+#: src/Infrastructure/WP/WPMenu/SubmenuPage/Bookings.php:11
+#: buildre/index.js:175
+msgid "Bookings"
+msgstr "予約"
+
+#: src/Infrastructure/WP/WPMenu/SubmenuPage/Calendar.php:11
+#: buildre/index.js:175
+msgid "Calendar"
+msgstr "カレンダー"
+
+#: src/Infrastructure/WP/WPMenu/SubmenuPage/Customers.php:12
+#: buildre/index.js:175
+msgid "Customers"
+msgstr "顧客"
+
+#: src/Infrastructure/WP/WPMenu/SubmenuPage/EmailLogs.php:11
+#: buildre/index.js:175
+msgid "Email Logs"
+msgstr "メールログ"
+
+#: src/Infrastructure/WP/WPMenu/SubmenuPage/Events.php:11 buildre/index.js:177
+msgid "Events"
+msgstr "イベント"
+
+#: src/Infrastructure/WP/WPMenu/SubmenuPage/Notifications.php:11
+#: buildre/index.js:177 buildre/index.js:181
+msgid "Notifications"
+msgstr "通知"
+
+#: src/Infrastructure/WP/WPMenu/SubmenuPage/Settings.php:11
+#: build/gutenberg-blocks/event/index.js:1 buildre/index.js:181
+msgid "Settings"
+msgstr "設定"
+
+#: src/Infrastructure/WP/WPMenu/SubmenuPage/Workers.php:19 buildre/index.js:181
+msgid "Workers"
+msgstr "従業員"
+
+#: build/gutenberg-blocks/cancel-booking/index.js:1
+#: build/gutenberg-blocks/cancel-booking/view.js:171 buildre/index.js:171
+msgid "Cancel Booking"
+msgstr "予約をキャンセル"
+
+#: build/gutenberg-blocks/cancel-booking/view.js:171 buildre/index.js:171
+#: buildre/index.js:177
+msgid "Confirm"
+msgstr "確認"
+
+#: build/gutenberg-blocks/cancel-booking/view.js:171
+msgid "Do you want to cancel your booking?"
+msgstr "予約をキャンセルしてもよろしいですか？"
+
+#: build/gutenberg-blocks/cancel-booking/view.js:171 buildre/index.js:171
+#: buildre/index.js:177
+msgid "Close"
+msgstr "閉じる"
+
+#: build/gutenberg-blocks/cancel-booking/view.js:171 buildre/index.js:171
+msgid "Saved!"
+msgstr "保存しました！"
+
+#: build/gutenberg-blocks/cancel-booking/view.js:171
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: build/gutenberg-blocks/cancel-booking/view.js:171
+msgid "Your booking has been canceled."
+msgstr "予約をキャンセルしました。"
+
+#: build/gutenberg-blocks/event/index.js:1
+msgid "Event ID"
+msgstr "イベント ID"
+
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgctxt "notificationTiming"
+msgid "Approved"
+msgstr "承認"
+
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgctxt "notificationTiming"
+msgid "Pending"
+msgstr "保留"
+
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgctxt "notificationTiming"
+msgid "Canceled"
+msgstr "キャンセル"
+
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgctxt "notificationTiming"
+msgid "Disapproved"
+msgstr "不承認"
+
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgctxt "notificationTiming"
+msgid "Scheduled"
+msgstr "定期"
+
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgid "Pending Payment"
+msgstr "支払い待ち"
+
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgid "Hidden"
+msgstr "非表示"
+
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgid "Optional"
+msgstr "任意"
+
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgid "Required"
+msgstr "必須"
+
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgid "Back"
+msgstr "戻る"
+
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgid "(required)"
+msgstr "（必須）"
+
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+#: buildre/index.js:175
+msgid "Error Code:"
+msgstr "エラーコード:"
+
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgid "Failed to load."
+msgstr "ロードに失敗しました。"
+
+#: build/gutenberg-blocks/event/view.js:171 buildre/index.js:171
+msgid "This field is required."
+msgstr "この項目は必須です。"
+
+#. translators: %d is replaced with "number"
+#: build/gutenberg-blocks/event/view.js:172 buildre/index.js:172
+msgid "The maximum length for this field is %d character."
+msgid_plural "The maximum length for this field is %d characters."
+msgstr[0] "この項目は%d文字以内で入力してください。"
+
+#. translators: %d is replaced with "number"
+#: build/gutenberg-blocks/event/view.js:173 buildre/index.js:173
+msgid "This field is greater than or equal to %d."
+msgstr "この項目は%d以上にしてください。"
+
+#: build/gutenberg-blocks/event/view.js:173 buildre/index.js:173
+msgid "Invalid pattern."
+msgstr "不正なパターンです。"
+
+#: build/gutenberg-blocks/event/view.js:173 buildre/index.js:173
+msgid "Please enter in the format: YYYY-MM-DD"
+msgstr "次の形式で入力してください: YYYY-MM-DD"
+
+#: build/gutenberg-blocks/event/view.js:173
+msgid "Accept terms of service."
+msgstr "利用規約に同意する。"
+
+#: build/gutenberg-blocks/event/view.js:173
+msgid "Select Date And Time"
+msgstr "日時選択"
+
+#: build/gutenberg-blocks/event/view.js:173
+msgid "Enter Customer Information and Tickets"
+msgstr "お客様情報とチケットの入力"
+
+#. translators: %s is datetime
+#: build/gutenberg-blocks/event/view.js:174
+msgid "Booking date and time %s"
+msgstr "予約日時　%s"
+
+#. translators: %d is maxTotalTickets
+#: build/gutenberg-blocks/event/view.js:175
+msgid "Please limit the total to %d or less."
+msgstr "合計枚数を%d枚以下にしてください。"
+
+#: build/gutenberg-blocks/event/view.js:175
+msgid "Tickets (Limited to 1 ticket per person.)"
+msgstr "チケット（チケットはお一人様1枚までです。）"
+
+#. translators: %d is max_tickets_per_booking
+#: build/gutenberg-blocks/event/view.js:176
+msgid "Select a ticket. Limit %d per person."
+msgstr "チケットを選択してください。合計%d枚まで選べます。"
+
+#: build/gutenberg-blocks/event/view.js:176
+msgid "(Sold Out)"
+msgstr "(売り切れ)"
+
+#: build/gutenberg-blocks/event/view.js:176
+msgid "Submit"
+msgstr "送信"
+
+#: build/gutenberg-blocks/event/view.js:176
+msgid "Pay now"
+msgstr "購入する"
+
+#: build/gutenberg-blocks/event/view.js:176
+msgid "Failed to load Stripe."
+msgstr "Stripeの読み込みに失敗しました。"
+
+#: build/gutenberg-blocks/event/view.js:176
+msgid "Thank you!"
+msgstr "ありがとうございます！"
+
+#: build/gutenberg-blocks/event/view.js:176
+msgid "Reservation completed."
+msgstr "予約が完了しました。"
+
+#: build/gutenberg-blocks/event/view.js:176
+msgid "There are no events."
+msgstr "イベントが見つかりませんでした。"
+
+#: build/gutenberg-blocks/event/view.js:176
+msgid "Please select date and time."
+msgstr "日時を選択してください。"
+
+#. translators: %d is restTicketCount
+#: build/gutenberg-blocks/event/view.js:177
+msgid "%d left"
+msgstr "残り%d"
+
+#: build/gutenberg-blocks/event/view.js:177
+msgid "Full"
+msgstr "満員"
+
+#: buildre/index.js:171
+msgid "Add"
+msgstr "追加"
+
+#: buildre/index.js:171
+msgid "Save"
+msgstr "保存"
+
+#: buildre/index.js:171
+msgid "Deleted."
+msgstr "削除しました。"
+
+#: buildre/index.js:171 buildre/index.js:177
+msgid "Delete"
+msgstr "削除"
+
+#: buildre/index.js:171
+msgid "Search"
+msgstr "検索"
+
+#: buildre/index.js:171
+msgid "Details"
+msgstr "詳細"
+
+#: buildre/index.js:171 buildre/index.js:175
+msgid "edit"
+msgstr "編集"
+
+#: buildre/index.js:171 buildre/index.js:177
+msgid "Are you sure to delete?"
+msgstr "データを削除しますか？"
+
+#: buildre/index.js:171
+msgid "You have no permission to view."
+msgstr "閲覧する権限がありません。"
+
+#: buildre/index.js:171
+msgid "This plugin is not activated."
+msgstr "このプラグインはアクティベートされていません。"
+
+#: buildre/index.js:171
+msgid "Please activate this plugin."
+msgstr "プラグインをアクティベートしてください。"
+
+#: buildre/index.js:171
+msgid "Go To Settings"
+msgstr "設定に行く"
+
+#: buildre/index.js:171
+msgid "Approve Booking"
+msgstr "予約を承認する"
+
+#: buildre/index.js:171
+msgid "Are you sure to approve this booking?"
+msgstr "予約を承認しますか？"
+
+#: buildre/index.js:171
+msgid "Are you sure to cancel this booking?"
+msgstr "予約をキャンセルしますか？"
+
+#: buildre/index.js:171
+msgid "Disapprove Booking"
+msgstr "予約を不承認にする"
+
+#: buildre/index.js:171
+msgid "Are you sure to disapprove this booking?"
+msgstr "予約を不承認にしますか？"
+
+#: buildre/index.js:171
+msgid "approve"
+msgstr "承認"
+
+#: buildre/index.js:171
+msgid "cancel"
+msgstr "キャンセル"
+
+#: buildre/index.js:171
+msgid "disapprove"
+msgstr "不承認"
+
+#: buildre/index.js:171 buildre/index.js:175
+msgid "Download"
+msgstr "ダウンロード"
+
+#: buildre/index.js:173
+msgid "Start DateTime is later than End DateTime."
+msgstr "開始日時が終了日時より後になっています。"
+
+#: buildre/index.js:173
+msgid "Also Update Customer Data"
+msgstr "顧客データも更新する"
+
+#: buildre/index.js:173
+msgid "Tickets Count & Payment Amount"
+msgstr "チケット枚数 & 支払金額"
+
+#. translators: %s is symbol
+#: buildre/index.js:174
+msgid "Payment Amount (%s)"
+msgstr "支払金額"
+
+#: buildre/index.js:174 buildre/index.js:175
+msgid "Add Booking"
+msgstr "予約を追加"
+
+#. translators: %d is replaced with "number"
+#: buildre/index.js:175
+msgid "Period ID: %d"
+msgstr "期間 ID：%d"
+
+#: buildre/index.js:175
+msgid "Booking Detail"
+msgstr "予約詳細"
+
+#: buildre/index.js:175
+msgid "This booking has been approved."
+msgstr "この予約は既に承認されています。"
+
+#: buildre/index.js:175
+msgid "This booking is pending."
+msgstr "この予約は保留中です。"
+
+#: buildre/index.js:175
+msgid "Status"
+msgstr "ステータス"
+
+#: buildre/index.js:175 buildre/index.js:177
+msgid "Name"
+msgstr "名前"
+
+#: buildre/index.js:175 buildre/index.js:181
+msgid "Ruby"
+msgstr "フリガナ"
+
+#: buildre/index.js:175
+msgid "Bought Tickets"
+msgstr "購入チケット"
+
+#: buildre/index.js:175 buildre/index.js:177
+msgid "Ticket Count"
+msgstr "チケット枚数"
+
+#: buildre/index.js:175
+msgid "Event Name / Start"
+msgstr "イベント名 / 開始日時"
+
+#: buildre/index.js:175 buildre/index.js:177
+msgid "Customer"
+msgstr "顧客"
+
+#: buildre/index.js:175
+msgid "Payment"
+msgstr "支払い"
+
+#: buildre/index.js:175
+msgid "[Filter]"
+msgstr "[絞り込み]"
+
+#: buildre/index.js:175
+msgid "Event ID = "
+msgstr "イベント ID = "
+
+#: buildre/index.js:175
+msgid "Period ID = "
+msgstr "期間 ID = "
+
+#: buildre/index.js:175
+msgid "Edit Booking"
+msgstr "予約を編集"
+
+#: buildre/index.js:175
+msgid "Add Customer"
+msgstr "顧客を追加"
+
+#: buildre/index.js:175
+msgid "Customer Detail"
+msgstr "顧客詳細"
+
+#: buildre/index.js:175
+msgid "Edit Customer"
+msgstr "顧客を編集"
+
+#: buildre/index.js:175
+msgid "Email Log Detail"
+msgstr "メールログ詳細"
+
+#: buildre/index.js:175
+msgid "Send successfully."
+msgstr "送信に成功しました。"
+
+#: buildre/index.js:175
+msgid "Resend"
+msgstr "再送"
+
+#: buildre/index.js:175
+msgid "Date Sent"
+msgstr "送信日時"
+
+#: buildre/index.js:175
+msgid "To"
+msgstr "送信先"
+
+#: buildre/index.js:175 buildre/index.js:177
+msgid "Subject"
+msgstr "件名"
+
+#: buildre/index.js:175 buildre/index.js:177
+msgid "Message"
+msgstr "本文"
+
+#: buildre/index.js:175
+msgid "Send Failed Emails"
+msgstr "送信失敗メールを再送"
+
+#: buildre/index.js:175
+msgid "All"
+msgstr "全て"
+
+#: buildre/index.js:175
+msgid "Failed Emails"
+msgstr "送信失敗メール"
+
+#: buildre/index.js:175
+msgid "Booking List"
+msgstr "予約リスト"
+
+#: buildre/index.js:175
+msgid "Reservation deadline"
+msgstr "予約受付締切"
+
+#: buildre/index.js:175
+msgid "Hours"
+msgstr "時間"
+
+#: buildre/index.js:175
+msgid "Cancellation Reception Deadline"
+msgstr "キャンセル受付締切"
+
+#: buildre/index.js:175 buildre/index.js:177
+msgid "Max Tickets Per Booking"
+msgstr "チケット購入数上限"
+
+#: buildre/index.js:175 buildre/index.js:177
+msgid "Show Organizer"
+msgstr "担当者を表示"
+
+#: buildre/index.js:175
+msgid "Use Approval System"
+msgstr "承認制を使う"
+
+#: buildre/index.js:175 buildre/index.js:177
+msgid "Is Online Payment"
+msgstr "オンライン決済"
+
+#: buildre/index.js:175 buildre/index.js:177
+msgid "Redirect URL"
+msgstr "リダイレクトURL"
+
+#: buildre/index.js:175 buildre/index.js:177
+msgid "Description"
+msgstr "説明"
+
+#: buildre/index.js:175
+msgid "Notification"
+msgstr "通知"
+
+#: buildre/index.js:175 buildre/index.js:177
+msgid "Organizer"
+msgstr "担当者"
+
+#: buildre/index.js:175
+msgid "Zoom User"
+msgstr "Zoomユーザー"
+
+#: buildre/index.js:175
+msgid "Failed to load Zoom User."
+msgstr "Zoomユーザーの読み込みに失敗しました。"
+
+#: buildre/index.js:175
+msgid "Google Calendar ID"
+msgstr "Googleカレンダー ID"
+
+#: buildre/index.js:175
+msgid "Login Failed."
+msgstr "ログインに失敗しました。"
+
+#: buildre/index.js:175
+msgid "Sign in with Google"
+msgstr "Googleでログイン"
+
+#: buildre/index.js:175
+msgid "Login Out Failed."
+msgstr "ログアウトできませんでした。"
+
+#: buildre/index.js:175
+msgid "Sign Out"
+msgstr "ログアウト"
+
+#: buildre/index.js:175
+msgid "End DateTime"
+msgstr "終了日時"
+
+#: buildre/index.js:175 buildre/index.js:177
+msgid "Max Ticket Count"
+msgstr "最大チケット枚数"
+
+#: buildre/index.js:175 buildre/index.js:177
+msgid "Location"
+msgstr "場所"
+
+#: buildre/index.js:175 buildre/index.js:177
+msgid "Online Meeting URL"
+msgstr "オンラインミーティングURL"
+
+#: buildre/index.js:175
+msgid "Periods"
+msgstr "期間"
+
+#: buildre/index.js:175
+msgid "Show Past"
+msgstr "過去も表示"
+
+#: buildre/index.js:175
+msgid "Period"
+msgstr "期間"
+
+#: buildre/index.js:175 buildre/index.js:177
+msgid " ~ "
+msgstr "〜"
+
+#: buildre/index.js:175 buildre/index.js:177
+msgid "Price"
+msgstr "価格"
+
+#: buildre/index.js:175
+msgid "Add Event"
+msgstr "イベントを追加"
+
+#: buildre/index.js:175
+msgid "Add Period"
+msgstr "期間を追加"
+
+#: buildre/index.js:175
+msgid "Add Ticket"
+msgstr "チケットを追加"
+
+#: buildre/index.js:175
+msgid "Event Detail"
+msgstr "イベント詳細"
+
+#: buildre/index.js:175
+msgid "Minimum Time To Close Booking"
+msgstr "予約受付締切時間"
+
+#. translators: %d is replaced with "number"
+#: buildre/index.js:176 buildre/index.js:177
+msgid "Before %d Hours"
+msgstr "%d時間前"
+
+#: buildre/index.js:176
+msgid "Minimum Time To Cancel Booking"
+msgstr "予約キャンセル締切時間"
+
+#: buildre/index.js:177
+msgid "Show"
+msgstr "表示"
+
+#: buildre/index.js:177
+msgid "Not Show"
+msgstr "非表示"
+
+#: buildre/index.js:177
+msgid "Approval System"
+msgstr "承認制"
+
+#: buildre/index.js:177
+msgid "Use"
+msgstr "使う"
+
+#: buildre/index.js:177
+msgid "Not Use"
+msgstr "使わない"
+
+#: buildre/index.js:177
+msgid "Yes"
+msgstr "はい"
+
+#: buildre/index.js:177
+msgid "No"
+msgstr "いいえ"
+
+#: buildre/index.js:177
+msgid "Tickets"
+msgstr "チケット"
+
+#: buildre/index.js:177
+msgid "Period Detail"
+msgstr "期間詳細"
+
+#: buildre/index.js:177
+msgid "Period List"
+msgstr "期間リスト"
+
+#: buildre/index.js:177
+msgid "DateTime"
+msgstr "日時"
+
+#: buildre/index.js:177
+msgid "Sold Tickets Count"
+msgstr "チケット販売枚数"
+
+#: buildre/index.js:177
+msgid "Zoom Meeting"
+msgstr "Zoomミーティング"
+
+#: buildre/index.js:177
+msgid "Start URL (Host)"
+msgstr "開始URL（ホスト）"
+
+#: buildre/index.js:177
+msgid "Join URL (Participants)"
+msgstr "招待URL（顧客）"
+
+#: buildre/index.js:177
+msgid "Google Meet"
+msgstr "Google Meet"
+
+#: buildre/index.js:177
+msgid "Google Meet URL"
+msgstr "Google Meet URL"
+
+#: buildre/index.js:177
+msgid "Delete Zoom Meeting"
+msgstr "Zoomミーティングを削除"
+
+#: buildre/index.js:177
+msgid "Delete Google Meet & Calendar"
+msgstr "Google Meetやカレンダーを削除"
+
+#: buildre/index.js:177
+msgid "Edit Event"
+msgstr "イベントを編集"
+
+#: buildre/index.js:177
+msgid "Edit Period"
+msgstr "イベント期間を編集"
+
+#: buildre/index.js:177
+msgid "Edit Ticket"
+msgstr "チケットを編集"
+
+#: buildre/index.js:177
+msgid "Customer email"
+msgstr "顧客のメールアドレス"
+
+#: buildre/index.js:177
+msgid "Customer first name"
+msgstr "顧客の姓"
+
+#: buildre/index.js:177
+msgid "Customer last name"
+msgstr "顧客の名"
+
+#: buildre/index.js:177
+msgid "Customer full name"
+msgstr "顧客の氏名"
+
+#: buildre/index.js:177
+msgid "Payment amount"
+msgstr "支払い金額"
+
+#: buildre/index.js:177
+msgid "Booking cancel URL"
+msgstr "予約キャンセルURL"
+
+#: buildre/index.js:177
+msgid "Event name"
+msgstr "イベント名"
+
+#: buildre/index.js:177
+msgid "Event description"
+msgstr "イベントの説明"
+
+#: buildre/index.js:177
+msgid "Location name"
+msgstr "開催地"
+
+#: buildre/index.js:177
+msgid "Start date and time of the event"
+msgstr "イベントの開始日時"
+
+#: buildre/index.js:177
+msgid "End date and time of the event"
+msgstr "イベントの終了日時"
+
+#: buildre/index.js:177
+msgid "Timezone"
+msgstr "タイムゾーン"
+
+#: buildre/index.js:177
+msgid "Event tickets"
+msgstr "イベントチケット"
+
+#: buildre/index.js:177
+msgid "Online meeting URL"
+msgstr "オンラインミーティングURL"
+
+#: buildre/index.js:177
+msgid "Google meet URL"
+msgstr "Google Meet URL"
+
+#: buildre/index.js:177
+msgid "Zoom join URL"
+msgstr "Zoom招待URL"
+
+#: buildre/index.js:177
+msgid "Copied"
+msgstr "コピーしました"
+
+#: buildre/index.js:177
+msgid "Customer phone"
+msgstr "顧客 電話番号"
+
+#: buildre/index.js:177
+msgid "Placeholders"
+msgstr "プレースホルダー"
+
+#: buildre/index.js:177
+msgid "Event"
+msgstr "イベント"
+
+#: buildre/index.js:177
+msgid "Timing"
+msgstr "タイミング"
+
+#: buildre/index.js:177
+msgid "Before Or After Event"
+msgstr "イベントの前か後"
+
+#: buildre/index.js:177 buildre/index.js:181
+msgid "Before"
+msgstr "前"
+
+#: buildre/index.js:177 buildre/index.js:181
+msgid "After"
+msgstr "後"
+
+#: buildre/index.js:177
+msgid "Days"
+msgstr "日"
+
+#: buildre/index.js:177
+msgid "Time"
+msgstr "時間"
+
+#: buildre/index.js:177
+msgid "Add Notification"
+msgstr "通知を追加"
+
+#: buildre/index.js:177
+msgid "Sort"
+msgstr "並び替え"
+
+#: buildre/index.js:177
+msgid "Name(asc)"
+msgstr "名前（昇順）"
+
+#: buildre/index.js:177
+msgid "Name(desc)"
+msgstr "名前（降順）"
+
+#. translators: %d is replaced with "number"
+#: buildre/index.js:178
+msgid "%dDay Before"
+msgid_plural "%dDays Before."
+msgstr[0] "%d日前"
+
+#. translators: %d is replaced with "number"
+#: buildre/index.js:179
+msgid "%dDay After"
+msgid_plural "%dDays After."
+msgstr[0] "%d日後"
+
+#. translators: %s is notification name
+#: buildre/index.js:180 buildre/index.js:181
+msgid "Edit %s"
+msgstr "%sを編集"
+
+#: buildre/index.js:180
+msgid "License"
+msgstr "ライセンス"
+
+#: buildre/index.js:180
+msgid "License Key"
+msgstr "ライセンスキー"
+
+#: buildre/index.js:180
+msgid "Activated!"
+msgstr "アクティベートしました！"
+
+#: buildre/index.js:180
+msgid "Verify Key"
+msgstr "キーを確認"
+
+#: buildre/index.js:180
+msgid "You have deactivated the key."
+msgstr "キーを無効にしました。"
+
+#: buildre/index.js:180
+msgid "Remove Key"
+msgstr "キーを削除"
+
+#: buildre/index.js:180
+msgid "Enter two-letter ISO country code."
+msgstr "2文字のISO国コードを入力してください。"
+
+#. translators: %d is replaced with "number"
+#: buildre/index.js:181
+msgid "This field is less than or equal to %d."
+msgstr "この項目は%d以下にしてください。"
+
+#: buildre/index.js:181
+msgid "Input Fields"
+msgstr "入力項目"
+
+#: buildre/index.js:181
+msgid ""
+"You can customize the fields your customers enter.Hidden fields will not be "
+"displayed on the Administration Screens."
+msgstr ""
+"顧客が入力する項目をカスタマイズできます。非表示にした項目は、管理画面にも表"
+"示されません。"
+
+#: buildre/index.js:181
+msgid "Default Country Code"
+msgstr "デフォルト国コード"
+
+#: buildre/index.js:181
+msgid ""
+"If you use international phone number, enter two-letter ISO country "
+"code(like US, JP), otherwise blank."
+msgstr ""
+"国際電話番号を使う場合は、2文字のISO国コードを入力してください（例 US, "
+"JP）。 利用しない場合は空白にしてください。"
+
+#: buildre/index.js:181
+msgid "URL Settings"
+msgstr "URL設定"
+
+#: buildre/index.js:181
+msgid "Terms Of Service URL"
+msgstr "利用規約URL"
+
+#: buildre/index.js:181
+msgid "Booking Cancel URL"
+msgstr "予約キャンセルURL"
+
+#: buildre/index.js:181
+msgid "Others"
+msgstr "その他"
+
+#: buildre/index.js:181
+msgid "Delete Content When Delete This Plugin"
+msgstr "プラグイン削除時にデータを削除"
+
+#: buildre/index.js:181
+msgid "Site Key"
+msgstr "サイトキー"
+
+#: buildre/index.js:181
+msgid "Secret Key"
+msgstr "シークレットキー"
+
+#: buildre/index.js:181
+msgid "Google Calendar & Google Meet"
+msgstr "Google カレンダー & Google Meet"
+
+#: buildre/index.js:181
+msgid "Google Client ID"
+msgstr "Google クライアント ID"
+
+#: buildre/index.js:181
+msgid "Google Client Secret"
+msgstr "Google クライアントシークレット"
+
+#: buildre/index.js:181
+msgid "Enable Google Meet"
+msgstr "Google Meetを作成する"
+
+#: buildre/index.js:181
+msgid "Zoom Account ID"
+msgstr "Zoomアカウント ID"
+
+#: buildre/index.js:181
+msgid "Zoom Client ID"
+msgstr "Zoomクライアント ID"
+
+#: buildre/index.js:181
+msgid "Zoom Client Secret"
+msgstr "Zoomクライアントシークレット"
+
+#: buildre/index.js:181
+msgid "Sender Email"
+msgstr "送信者メールアドレス"
+
+#: buildre/index.js:181
+msgid "Sender Name"
+msgstr "送信者名"
+
+#: buildre/index.js:181
+msgid "Bcc Emails(Comma Separated)"
+msgstr "Bccメールアドレス（コンマ区切り）"
+
+#: buildre/index.js:181
+msgid "Email Service"
+msgstr "メールサービス"
+
+#: buildre/index.js:181
+msgid "Smtp Secure"
+msgstr "セキュア"
+
+#: buildre/index.js:181
+msgid "Smtp Username"
+msgstr "ユーザー名"
+
+#: buildre/index.js:181
+msgid "Smtp Password"
+msgstr "パスワード"
+
+#: buildre/index.js:181
+msgid "Symbol"
+msgstr "通貨記号"
+
+#: buildre/index.js:181
+msgid "Price Symbol Position"
+msgstr "通貨記号の位置"
+
+#: buildre/index.js:181
+msgid "Price Thousand Separator"
+msgstr "価格の千区切りの記号"
+
+#: buildre/index.js:181
+msgid "Price Decimals"
+msgstr "価格の小数点以下の桁数"
+
+#: buildre/index.js:181
+msgid "Price Decimal Separator"
+msgstr "価格の小数区切りの記号"
+
+#: buildre/index.js:181
+msgid "Currency"
+msgstr "通貨"
+
+#: buildre/index.js:181
+msgid "Stripe Test Mode"
+msgstr "Stripeテストモード"
+
+#: buildre/index.js:181
+msgid "Live Publishable Key"
+msgstr "本番環境の公開可能キー"
+
+#: buildre/index.js:181
+msgid "Live Secret Key"
+msgstr "本番環境のシークレットキー"
+
+#: buildre/index.js:181
+msgid "Test Publishable Key"
+msgstr "テスト環境の公開可能キー"
+
+#: buildre/index.js:181
+msgid "Test Secret Key"
+msgstr "テスト環境のシークレットキー"
+
+#: buildre/index.js:181
+msgid "General"
+msgstr "一般"
+
+#: buildre/index.js:181
+msgid "Payments"
+msgstr "支払い"
+
+#: buildre/index.js:181
+msgid "Integrations"
+msgstr "インテグレーション"
+
+#: buildre/index.js:181
+msgid "If you connect to Zoom, you can set Zoom User."
+msgstr "Zoomと連携するとZoomユーザーを設定できます。"
+
+#: buildre/index.js:181
+msgid "Google Calendar"
+msgstr "Googleカレンダー"
+
+#: buildre/index.js:181
+msgid "If you connect to Google, you can sign in with Google."
+msgstr "Googleと連携するとGoogleにログインできます。"
+
+#: buildre/index.js:181
+msgid "Display Name"
+msgstr "表示名"
+
+#: buildre/index.js:181
+msgid "Role"
+msgstr "権限グループ"
+
+#: build/gutenberg-blocks/cancel-booking/block.json
+msgctxt "block title"
+msgid "Yoyaku - Cancel Booking"
+msgstr "Yoyaku - 予約キャンセル"
+
+#: build/gutenberg-blocks/cancel-booking/block.json
+msgctxt "block description"
+msgid "Display a booking cancel form."
+msgstr "予約をキャンセルするフォームを表示します。"
+
+#: build/gutenberg-blocks/event/block.json
+msgctxt "block title"
+msgid "Yoyaku - Event"
+msgstr "Yoyaku - イベント"
+
+#: build/gutenberg-blocks/event/block.json
+msgctxt "block description"
+msgid "Display a event booking form."
+msgstr "イベントの予約をするためのフォームを表示します。"
+
+#~ msgid "Event Canceled."
+#~ msgstr "イベントをキャンセルしました。"
+
+#~ msgid "Customer List"
+#~ msgstr "顧客リスト"
+
+#~ msgid "Email Log List"
+#~ msgstr "メールログリスト"
+
+#~ msgid "Event List"
+#~ msgstr "イベントリスト"
+
+#~ msgid "Cancel URL"
+#~ msgstr "キャンセルURL"
+
+#~ msgid "Amount (%s)"
+#~ msgstr "合計（%s）"
+
+#~ msgid "Body"
+#~ msgstr "本文"
+
+#~ msgid "Content"
+#~ msgstr "本文"
+
+#~ msgid "Create Customer"
+#~ msgstr "顧客を追加"
+
+#~ msgid "Mail Logs"
+#~ msgstr "メールログ"
+
+#~ msgid "%s is sold out."
+#~ msgstr "%sは売り切れです。"
+
+#~ msgid "Please enter phone number."
+#~ msgstr "電話番号を入力してください。"
+
+#~ msgid "Amount"
+#~ msgstr "合計"
+
+#~ msgid "The minimum length for this field is %d character."
+#~ msgid_plural "The minimum length for this field is %d characters."
+#~ msgstr[0] "この項目は%d文字以上で入力してください。"
+
+#~ msgid "Approve"
+#~ msgstr "承認"
+
+#~ msgid "Show Bookings"
+#~ msgstr "予約を見る"
+
+#~ msgid "Link Online Meeting"
+#~ msgstr "オンラインミーティングURL"
+
+#~ msgid "Short Memo"
+#~ msgstr "短いメモ"
+
+#~ msgid "Transaction Created"
+#~ msgstr "トランザクション作成日時"
+
+#~ msgid "Linked"
+#~ msgstr "連携中"
+
+#~ msgid "Not Linked"
+#~ msgstr "未連携"
+
+#~ msgid "Terms Of Service"
+#~ msgstr "利用規約"
+
+#~ msgid "Google reCAPTCHA Key"
+#~ msgstr "GooglereCAPTCHA キー"
+
+#~ msgid "Notice"
+#~ msgstr "注意事項"
+
+#~ msgid "Activate"
+#~ msgstr "アクティベート"
+
+#~ msgid "Deactivated."
+#~ msgstr "無効にしました。"
+
+#~ msgid "Deactivate"
+#~ msgstr "無効化"
+
+#~ msgid "Default"
+#~ msgstr "デフォルト"
+
+#~ msgid "Phone Field Setting"
+#~ msgstr "電話番号の項目設定"
+
+#~ msgid "Ruby Field Setting"
+#~ msgstr "フリガナの項目設定"
+
+#~ msgid "Birthday Field Setting"
+#~ msgstr "生年月日の項目設定"
+
+#~ msgid "Gender Field Setting"
+#~ msgstr "性別の項目設定"
+
+#~ msgid "Zipcode Field Setting"
+#~ msgstr "郵便番号の項目設定"
+
+#~ msgid "Address Field Setting"
+#~ msgstr "住所の項目設定"
+
+#~ msgid "Google reCAPTCHA"
+#~ msgstr "Google reCAPTCHA"
+
+#~ msgid "Description Event"
+#~ msgstr "イベントの説明"
+
+#~ msgid "Accept "
+#~ msgstr "同意する。"
+
+#~ msgid "Period DateTime"
+#~ msgstr "日時"
+
+#~ msgid "license status:"
+#~ msgstr "ライセンスステータス："
+
+#~ msgid "expires:"
+#~ msgstr "有効期限："
+
+#~ msgid "tickets"
+#~ msgstr "チケット"
+
+#~ msgid "price"
+#~ msgstr "価格"
+
+#~ msgid "total price"
+#~ msgstr "合計金額"
+
+#~ msgid "delete"
+#~ msgstr "削除"
+
+#~ msgid "Event Period ID"
+#~ msgstr "イベント期間 ID"
+
+#~ msgid "Zoom User ID"
+#~ msgstr "Zoomユーザー ID"
+
+#~ msgid "Zoom Join URL"
+#~ msgstr "Zoom招待URL"
+
+#~ msgid "Zoom Start URL"
+#~ msgstr "Zoom開始URL"
+
+#~ msgid "Google Calendar Event ID"
+#~ msgstr "Googleカレンダーイベント ID"
+
+#~ msgid "Ticket"
+#~ msgstr "チケット"
+
+#~ msgid "Count"
+#~ msgstr "数"
+
+#~ msgid "Invalid pattern. (ex) 21:30:00"
+#~ msgstr "不正なパターンです。（例）21:30:00"
+
+#~ msgid "Edit Notification"
+#~ msgstr "通知を編集"
+
+#~ msgid "Edit Worker"
+#~ msgstr "従業員を編集"
+
+#~ msgid ""
+#~ "アネコは毎週受け付ける定期的な予約や、イベントなどの不定期な予約を管理する"
+#~ "ためのプラグインです。"
+#~ msgstr "Yoyaku Managerはイベントなどの予約を管理するためのプラグインです。"
+
+#~ msgid "Dear %customer_full_name%,"
+#~ msgstr "%customer_full_name% 様"
+
+#, fuzzy
+#~| msgid "Your booking has been canceled."
+#~ msgid "Your %event_name% event booking has been canceled."
+#~ msgstr "予約をキャンセルしました。"
+
+#~ msgid "phone"
+#~ msgstr "電話番号"
+
+#~ msgid "zipcode"
+#~ msgstr "郵便番号"
+
+#~ msgid "address"
+#~ msgstr "住所"
+
+#~ msgid "birthday"
+#~ msgstr "生年月日"
+
+#~ msgid "Online meeting url"
+#~ msgstr "オンラインミーティングURL"
+
+#~ msgid "Zoom join url"
+#~ msgstr "Zoom招待URL"
+
+#~ msgid "Google meet url"
+#~ msgstr "Google Meet URL"
+
+#~ msgid "Locations"
+#~ msgstr "場所"

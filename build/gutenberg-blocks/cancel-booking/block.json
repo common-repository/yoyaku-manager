@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "yoyaku/cancel-booking",
+  "version": "0.1.0",
+  "title": "Yoyaku - Cancel Booking",
+  "category": "yoyaku-blocks",
+  "description": "Display a booking cancel form.",
+  "supports": {
+    "html": false,
+    "color": {
+      "text": true,
+      "background": true,
+      "gradients": true
+    },
+    "typography": {
+      "fontSize": true
+    }
+  },
+  "attributes": {},
+  "textdomain": "yoyaku-manager",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js",
+  "style": "file:./style.scss"
+}

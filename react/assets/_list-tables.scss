@@ -1,0 +1,19 @@
+
+.#{yoyaku} {
+  table {
+    border: 1px $table-border-color solid;
+  }
+
+  th {
+    font-weight: 600;
+  }
+
+  .records-info button,
+  .table-action-group button {
+    text-decoration: none;
+  }
+
+  .table-action-group-hidden {
+    visibility: hidden;
+  }
+}

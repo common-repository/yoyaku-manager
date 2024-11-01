@@ -1,0 +1,780 @@
+{
+  "translation-revision-date": "2024-09-27 10:28+0900",
+  "generator": "WP-CLI\/2.9.0",
+  "source": "buildre\/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "messages",
+        "lang": "ja",
+        "plural-forms": "nplurals=1; plural=0;"
+      },
+      "Phone": [
+        "\u96fb\u8a71\u756a\u53f7"
+      ],
+      "First Name Ruby": [
+        "\u3075\u308a\u304c\u306a\uff08\u59d3\uff09"
+      ],
+      "Last Name Ruby": [
+        "\u3075\u308a\u304c\u306a\uff08\u540d\uff09"
+      ],
+      "Birthday": [
+        "\u751f\u5e74\u6708\u65e5"
+      ],
+      "Gender": [
+        "\u6027\u5225"
+      ],
+      "Zipcode": [
+        "\u90f5\u4fbf\u756a\u53f7"
+      ],
+      "Address": [
+        "\u4f4f\u6240"
+      ],
+      "Email": [
+        "\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9"
+      ],
+      "First Name": [
+        "\u540d\u524d\uff08\u59d3\uff09"
+      ],
+      "Last Name": [
+        "\u540d\u524d\uff08\u540d\uff09"
+      ],
+      "Memo": [
+        "\u30e1\u30e2"
+      ],
+      "Registered": [
+        "\u767b\u9332\u65e5\u6642"
+      ],
+      "Male": [
+        "\u7537\u6027"
+      ],
+      "Female": [
+        "\u5973\u6027"
+      ],
+      "Approved": [
+        "\u627f\u8a8d\u6e08\u307f"
+      ],
+      "Pending": [
+        "\u4fdd\u7559"
+      ],
+      "Canceled": [
+        "\u30ad\u30e3\u30f3\u30bb\u30eb\u6e08\u307f"
+      ],
+      "Disapproved": [
+        "\u4e0d\u627f\u8a8d"
+      ],
+      "Event Name": [
+        "\u30a4\u30d9\u30f3\u30c8\u540d"
+      ],
+      "Start DateTime": [
+        "\u958b\u59cb\u65e5\u6642"
+      ],
+      "Payment Status": [
+        "\u652f\u6255\u3044\u30b9\u30c6\u30fc\u30bf\u30b9"
+      ],
+      "Gateway": [
+        "\u30b2\u30fc\u30c8\u30a6\u30a7\u30a4"
+      ],
+      "Payment Amount": [
+        "\u652f\u6255\u3044\u91d1\u984d"
+      ],
+      "Transaction ID": [
+        "\u30c8\u30e9\u30f3\u30b6\u30af\u30b7\u30e7\u30f3 ID"
+      ],
+      "Created": [
+        "\u4f5c\u6210\u65e5\u6642"
+      ],
+      "On Site": [
+        "\u958b\u50ac\u5730"
+      ],
+      "Paid": [
+        "\u652f\u6255\u3044\u6e08\u307f"
+      ],
+      "Refunded": [
+        "\u8fd4\u91d1"
+      ],
+      "Bookings": [
+        "\u4e88\u7d04"
+      ],
+      "Calendar": [
+        "\u30ab\u30ec\u30f3\u30c0\u30fc"
+      ],
+      "Customers": [
+        "\u9867\u5ba2"
+      ],
+      "Email Logs": [
+        "\u30e1\u30fc\u30eb\u30ed\u30b0"
+      ],
+      "Events": [
+        "\u30a4\u30d9\u30f3\u30c8"
+      ],
+      "Notifications": [
+        "\u901a\u77e5"
+      ],
+      "Settings": [
+        "\u8a2d\u5b9a"
+      ],
+      "Workers": [
+        "\u5f93\u696d\u54e1"
+      ],
+      "Cancel Booking": [
+        "\u4e88\u7d04\u3092\u30ad\u30e3\u30f3\u30bb\u30eb"
+      ],
+      "Confirm": [
+        "\u78ba\u8a8d"
+      ],
+      "Close": [
+        "\u9589\u3058\u308b"
+      ],
+      "Saved!": [
+        "\u4fdd\u5b58\u3057\u307e\u3057\u305f\uff01"
+      ],
+      "notificationTiming\u0004Approved": [
+        "\u627f\u8a8d"
+      ],
+      "notificationTiming\u0004Pending": [
+        "\u4fdd\u7559"
+      ],
+      "notificationTiming\u0004Canceled": [
+        "\u30ad\u30e3\u30f3\u30bb\u30eb"
+      ],
+      "notificationTiming\u0004Disapproved": [
+        "\u4e0d\u627f\u8a8d"
+      ],
+      "notificationTiming\u0004Scheduled": [
+        "\u5b9a\u671f"
+      ],
+      "Pending Payment": [
+        "\u652f\u6255\u3044\u5f85\u3061"
+      ],
+      "Hidden": [
+        "\u975e\u8868\u793a"
+      ],
+      "Optional": [
+        "\u4efb\u610f"
+      ],
+      "Required": [
+        "\u5fc5\u9808"
+      ],
+      "Back": [
+        "\u623b\u308b"
+      ],
+      "(required)": [
+        "\uff08\u5fc5\u9808\uff09"
+      ],
+      "Error Code:": [
+        "\u30a8\u30e9\u30fc\u30b3\u30fc\u30c9:"
+      ],
+      "Failed to load.": [
+        "\u30ed\u30fc\u30c9\u306b\u5931\u6557\u3057\u307e\u3057\u305f\u3002"
+      ],
+      "This field is required.": [
+        "\u3053\u306e\u9805\u76ee\u306f\u5fc5\u9808\u3067\u3059\u3002"
+      ],
+      "The maximum length for this field is %d character.": [
+        "\u3053\u306e\u9805\u76ee\u306f%d\u6587\u5b57\u4ee5\u5185\u3067\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+      ],
+      "This field is greater than or equal to %d.": [
+        "\u3053\u306e\u9805\u76ee\u306f%d\u4ee5\u4e0a\u306b\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+      ],
+      "Invalid pattern.": [
+        "\u4e0d\u6b63\u306a\u30d1\u30bf\u30fc\u30f3\u3067\u3059\u3002"
+      ],
+      "Please enter in the format: YYYY-MM-DD": [
+        "\u6b21\u306e\u5f62\u5f0f\u3067\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044: YYYY-MM-DD"
+      ],
+      "Add": [
+        "\u8ffd\u52a0"
+      ],
+      "Save": [
+        "\u4fdd\u5b58"
+      ],
+      "Deleted.": [
+        "\u524a\u9664\u3057\u307e\u3057\u305f\u3002"
+      ],
+      "Delete": [
+        "\u524a\u9664"
+      ],
+      "Search": [
+        "\u691c\u7d22"
+      ],
+      "Details": [
+        "\u8a73\u7d30"
+      ],
+      "edit": [
+        "\u7de8\u96c6"
+      ],
+      "Are you sure to delete?": [
+        "\u30c7\u30fc\u30bf\u3092\u524a\u9664\u3057\u307e\u3059\u304b\uff1f"
+      ],
+      "You have no permission to view.": [
+        "\u95b2\u89a7\u3059\u308b\u6a29\u9650\u304c\u3042\u308a\u307e\u305b\u3093\u3002"
+      ],
+      "This plugin is not activated.": [
+        "\u3053\u306e\u30d7\u30e9\u30b0\u30a4\u30f3\u306f\u30a2\u30af\u30c6\u30a3\u30d9\u30fc\u30c8\u3055\u308c\u3066\u3044\u307e\u305b\u3093\u3002"
+      ],
+      "Please activate this plugin.": [
+        "\u30d7\u30e9\u30b0\u30a4\u30f3\u3092\u30a2\u30af\u30c6\u30a3\u30d9\u30fc\u30c8\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+      ],
+      "Go To Settings": [
+        "\u8a2d\u5b9a\u306b\u884c\u304f"
+      ],
+      "Approve Booking": [
+        "\u4e88\u7d04\u3092\u627f\u8a8d\u3059\u308b"
+      ],
+      "Are you sure to approve this booking?": [
+        "\u4e88\u7d04\u3092\u627f\u8a8d\u3057\u307e\u3059\u304b\uff1f"
+      ],
+      "Are you sure to cancel this booking?": [
+        "\u4e88\u7d04\u3092\u30ad\u30e3\u30f3\u30bb\u30eb\u3057\u307e\u3059\u304b\uff1f"
+      ],
+      "Disapprove Booking": [
+        "\u4e88\u7d04\u3092\u4e0d\u627f\u8a8d\u306b\u3059\u308b"
+      ],
+      "Are you sure to disapprove this booking?": [
+        "\u4e88\u7d04\u3092\u4e0d\u627f\u8a8d\u306b\u3057\u307e\u3059\u304b\uff1f"
+      ],
+      "approve": [
+        "\u627f\u8a8d"
+      ],
+      "cancel": [
+        "\u30ad\u30e3\u30f3\u30bb\u30eb"
+      ],
+      "disapprove": [
+        "\u4e0d\u627f\u8a8d"
+      ],
+      "Download": [
+        "\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9"
+      ],
+      "Start DateTime is later than End DateTime.": [
+        "\u958b\u59cb\u65e5\u6642\u304c\u7d42\u4e86\u65e5\u6642\u3088\u308a\u5f8c\u306b\u306a\u3063\u3066\u3044\u307e\u3059\u3002"
+      ],
+      "Also Update Customer Data": [
+        "\u9867\u5ba2\u30c7\u30fc\u30bf\u3082\u66f4\u65b0\u3059\u308b"
+      ],
+      "Tickets Count & Payment Amount": [
+        "\u30c1\u30b1\u30c3\u30c8\u679a\u6570 & \u652f\u6255\u91d1\u984d"
+      ],
+      "Payment Amount (%s)": [
+        "\u652f\u6255\u91d1\u984d"
+      ],
+      "Add Booking": [
+        "\u4e88\u7d04\u3092\u8ffd\u52a0"
+      ],
+      "Period ID: %d": [
+        "\u671f\u9593 ID\uff1a%d"
+      ],
+      "Booking Detail": [
+        "\u4e88\u7d04\u8a73\u7d30"
+      ],
+      "This booking has been approved.": [
+        "\u3053\u306e\u4e88\u7d04\u306f\u65e2\u306b\u627f\u8a8d\u3055\u308c\u3066\u3044\u307e\u3059\u3002"
+      ],
+      "This booking is pending.": [
+        "\u3053\u306e\u4e88\u7d04\u306f\u4fdd\u7559\u4e2d\u3067\u3059\u3002"
+      ],
+      "Status": [
+        "\u30b9\u30c6\u30fc\u30bf\u30b9"
+      ],
+      "Name": [
+        "\u540d\u524d"
+      ],
+      "Ruby": [
+        "\u30d5\u30ea\u30ac\u30ca"
+      ],
+      "Bought Tickets": [
+        "\u8cfc\u5165\u30c1\u30b1\u30c3\u30c8"
+      ],
+      "Ticket Count": [
+        "\u30c1\u30b1\u30c3\u30c8\u679a\u6570"
+      ],
+      "Event Name \/ Start": [
+        "\u30a4\u30d9\u30f3\u30c8\u540d \/ \u958b\u59cb\u65e5\u6642"
+      ],
+      "Customer": [
+        "\u9867\u5ba2"
+      ],
+      "Payment": [
+        "\u652f\u6255\u3044"
+      ],
+      "[Filter]": [
+        "[\u7d5e\u308a\u8fbc\u307f]"
+      ],
+      "Event ID = ": [
+        "\u30a4\u30d9\u30f3\u30c8 ID = "
+      ],
+      "Period ID = ": [
+        "\u671f\u9593 ID = "
+      ],
+      "Edit Booking": [
+        "\u4e88\u7d04\u3092\u7de8\u96c6"
+      ],
+      "Add Customer": [
+        "\u9867\u5ba2\u3092\u8ffd\u52a0"
+      ],
+      "Customer Detail": [
+        "\u9867\u5ba2\u8a73\u7d30"
+      ],
+      "Edit Customer": [
+        "\u9867\u5ba2\u3092\u7de8\u96c6"
+      ],
+      "Email Log Detail": [
+        "\u30e1\u30fc\u30eb\u30ed\u30b0\u8a73\u7d30"
+      ],
+      "Send successfully.": [
+        "\u9001\u4fe1\u306b\u6210\u529f\u3057\u307e\u3057\u305f\u3002"
+      ],
+      "Resend": [
+        "\u518d\u9001"
+      ],
+      "Date Sent": [
+        "\u9001\u4fe1\u65e5\u6642"
+      ],
+      "To": [
+        "\u9001\u4fe1\u5148"
+      ],
+      "Subject": [
+        "\u4ef6\u540d"
+      ],
+      "Message": [
+        "\u672c\u6587"
+      ],
+      "Send Failed Emails": [
+        "\u9001\u4fe1\u5931\u6557\u30e1\u30fc\u30eb\u3092\u518d\u9001"
+      ],
+      "All": [
+        "\u5168\u3066"
+      ],
+      "Failed Emails": [
+        "\u9001\u4fe1\u5931\u6557\u30e1\u30fc\u30eb"
+      ],
+      "Booking List": [
+        "\u4e88\u7d04\u30ea\u30b9\u30c8"
+      ],
+      "Reservation deadline": [
+        "\u4e88\u7d04\u53d7\u4ed8\u7de0\u5207"
+      ],
+      "Hours": [
+        "\u6642\u9593"
+      ],
+      "Cancellation Reception Deadline": [
+        "\u30ad\u30e3\u30f3\u30bb\u30eb\u53d7\u4ed8\u7de0\u5207"
+      ],
+      "Max Tickets Per Booking": [
+        "\u30c1\u30b1\u30c3\u30c8\u8cfc\u5165\u6570\u4e0a\u9650"
+      ],
+      "Show Organizer": [
+        "\u62c5\u5f53\u8005\u3092\u8868\u793a"
+      ],
+      "Use Approval System": [
+        "\u627f\u8a8d\u5236\u3092\u4f7f\u3046"
+      ],
+      "Is Online Payment": [
+        "\u30aa\u30f3\u30e9\u30a4\u30f3\u6c7a\u6e08"
+      ],
+      "Redirect URL": [
+        "\u30ea\u30c0\u30a4\u30ec\u30af\u30c8URL"
+      ],
+      "Description": [
+        "\u8aac\u660e"
+      ],
+      "Notification": [
+        "\u901a\u77e5"
+      ],
+      "Organizer": [
+        "\u62c5\u5f53\u8005"
+      ],
+      "Zoom User": [
+        "Zoom\u30e6\u30fc\u30b6\u30fc"
+      ],
+      "Failed to load Zoom User.": [
+        "Zoom\u30e6\u30fc\u30b6\u30fc\u306e\u8aad\u307f\u8fbc\u307f\u306b\u5931\u6557\u3057\u307e\u3057\u305f\u3002"
+      ],
+      "Google Calendar ID": [
+        "Google\u30ab\u30ec\u30f3\u30c0\u30fc ID"
+      ],
+      "Login Failed.": [
+        "\u30ed\u30b0\u30a4\u30f3\u306b\u5931\u6557\u3057\u307e\u3057\u305f\u3002"
+      ],
+      "Sign in with Google": [
+        "Google\u3067\u30ed\u30b0\u30a4\u30f3"
+      ],
+      "Login Out Failed.": [
+        "\u30ed\u30b0\u30a2\u30a6\u30c8\u3067\u304d\u307e\u305b\u3093\u3067\u3057\u305f\u3002"
+      ],
+      "Sign Out": [
+        "\u30ed\u30b0\u30a2\u30a6\u30c8"
+      ],
+      "End DateTime": [
+        "\u7d42\u4e86\u65e5\u6642"
+      ],
+      "Max Ticket Count": [
+        "\u6700\u5927\u30c1\u30b1\u30c3\u30c8\u679a\u6570"
+      ],
+      "Location": [
+        "\u5834\u6240"
+      ],
+      "Online Meeting URL": [
+        "\u30aa\u30f3\u30e9\u30a4\u30f3\u30df\u30fc\u30c6\u30a3\u30f3\u30b0URL"
+      ],
+      "Periods": [
+        "\u671f\u9593"
+      ],
+      "Show Past": [
+        "\u904e\u53bb\u3082\u8868\u793a"
+      ],
+      "Period": [
+        "\u671f\u9593"
+      ],
+      " ~ ": [
+        "\u301c"
+      ],
+      "Price": [
+        "\u4fa1\u683c"
+      ],
+      "Add Event": [
+        "\u30a4\u30d9\u30f3\u30c8\u3092\u8ffd\u52a0"
+      ],
+      "Add Period": [
+        "\u671f\u9593\u3092\u8ffd\u52a0"
+      ],
+      "Add Ticket": [
+        "\u30c1\u30b1\u30c3\u30c8\u3092\u8ffd\u52a0"
+      ],
+      "Event Detail": [
+        "\u30a4\u30d9\u30f3\u30c8\u8a73\u7d30"
+      ],
+      "Minimum Time To Close Booking": [
+        "\u4e88\u7d04\u53d7\u4ed8\u7de0\u5207\u6642\u9593"
+      ],
+      "Before %d Hours": [
+        "%d\u6642\u9593\u524d"
+      ],
+      "Minimum Time To Cancel Booking": [
+        "\u4e88\u7d04\u30ad\u30e3\u30f3\u30bb\u30eb\u7de0\u5207\u6642\u9593"
+      ],
+      "Show": [
+        "\u8868\u793a"
+      ],
+      "Not Show": [
+        "\u975e\u8868\u793a"
+      ],
+      "Approval System": [
+        "\u627f\u8a8d\u5236"
+      ],
+      "Use": [
+        "\u4f7f\u3046"
+      ],
+      "Not Use": [
+        "\u4f7f\u308f\u306a\u3044"
+      ],
+      "Yes": [
+        "\u306f\u3044"
+      ],
+      "No": [
+        "\u3044\u3044\u3048"
+      ],
+      "Tickets": [
+        "\u30c1\u30b1\u30c3\u30c8"
+      ],
+      "Period Detail": [
+        "\u671f\u9593\u8a73\u7d30"
+      ],
+      "Period List": [
+        "\u671f\u9593\u30ea\u30b9\u30c8"
+      ],
+      "DateTime": [
+        "\u65e5\u6642"
+      ],
+      "Sold Tickets Count": [
+        "\u30c1\u30b1\u30c3\u30c8\u8ca9\u58f2\u679a\u6570"
+      ],
+      "Zoom Meeting": [
+        "Zoom\u30df\u30fc\u30c6\u30a3\u30f3\u30b0"
+      ],
+      "Start URL (Host)": [
+        "\u958b\u59cbURL\uff08\u30db\u30b9\u30c8\uff09"
+      ],
+      "Join URL (Participants)": [
+        "\u62db\u5f85URL\uff08\u9867\u5ba2\uff09"
+      ],
+      "Google Meet": [
+        "Google Meet"
+      ],
+      "Google Meet URL": [
+        "Google Meet URL"
+      ],
+      "Delete Zoom Meeting": [
+        "Zoom\u30df\u30fc\u30c6\u30a3\u30f3\u30b0\u3092\u524a\u9664"
+      ],
+      "Delete Google Meet & Calendar": [
+        "Google Meet\u3084\u30ab\u30ec\u30f3\u30c0\u30fc\u3092\u524a\u9664"
+      ],
+      "Edit Event": [
+        "\u30a4\u30d9\u30f3\u30c8\u3092\u7de8\u96c6"
+      ],
+      "Edit Period": [
+        "\u30a4\u30d9\u30f3\u30c8\u671f\u9593\u3092\u7de8\u96c6"
+      ],
+      "Edit Ticket": [
+        "\u30c1\u30b1\u30c3\u30c8\u3092\u7de8\u96c6"
+      ],
+      "Customer email": [
+        "\u9867\u5ba2\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9"
+      ],
+      "Customer first name": [
+        "\u9867\u5ba2\u306e\u59d3"
+      ],
+      "Customer last name": [
+        "\u9867\u5ba2\u306e\u540d"
+      ],
+      "Customer full name": [
+        "\u9867\u5ba2\u306e\u6c0f\u540d"
+      ],
+      "Payment amount": [
+        "\u652f\u6255\u3044\u91d1\u984d"
+      ],
+      "Booking cancel URL": [
+        "\u4e88\u7d04\u30ad\u30e3\u30f3\u30bb\u30ebURL"
+      ],
+      "Event name": [
+        "\u30a4\u30d9\u30f3\u30c8\u540d"
+      ],
+      "Event description": [
+        "\u30a4\u30d9\u30f3\u30c8\u306e\u8aac\u660e"
+      ],
+      "Location name": [
+        "\u958b\u50ac\u5730"
+      ],
+      "Start date and time of the event": [
+        "\u30a4\u30d9\u30f3\u30c8\u306e\u958b\u59cb\u65e5\u6642"
+      ],
+      "End date and time of the event": [
+        "\u30a4\u30d9\u30f3\u30c8\u306e\u7d42\u4e86\u65e5\u6642"
+      ],
+      "Timezone": [
+        "\u30bf\u30a4\u30e0\u30be\u30fc\u30f3"
+      ],
+      "Event tickets": [
+        "\u30a4\u30d9\u30f3\u30c8\u30c1\u30b1\u30c3\u30c8"
+      ],
+      "Online meeting URL": [
+        "\u30aa\u30f3\u30e9\u30a4\u30f3\u30df\u30fc\u30c6\u30a3\u30f3\u30b0URL"
+      ],
+      "Google meet URL": [
+        "Google Meet URL"
+      ],
+      "Zoom join URL": [
+        "Zoom\u62db\u5f85URL"
+      ],
+      "Copied": [
+        "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f"
+      ],
+      "Customer phone": [
+        "\u9867\u5ba2 \u96fb\u8a71\u756a\u53f7"
+      ],
+      "Placeholders": [
+        "\u30d7\u30ec\u30fc\u30b9\u30db\u30eb\u30c0\u30fc"
+      ],
+      "Event": [
+        "\u30a4\u30d9\u30f3\u30c8"
+      ],
+      "Timing": [
+        "\u30bf\u30a4\u30df\u30f3\u30b0"
+      ],
+      "Before Or After Event": [
+        "\u30a4\u30d9\u30f3\u30c8\u306e\u524d\u304b\u5f8c"
+      ],
+      "Before": [
+        "\u524d"
+      ],
+      "After": [
+        "\u5f8c"
+      ],
+      "Days": [
+        "\u65e5"
+      ],
+      "Time": [
+        "\u6642\u9593"
+      ],
+      "Add Notification": [
+        "\u901a\u77e5\u3092\u8ffd\u52a0"
+      ],
+      "Sort": [
+        "\u4e26\u3073\u66ff\u3048"
+      ],
+      "Name(asc)": [
+        "\u540d\u524d\uff08\u6607\u9806\uff09"
+      ],
+      "Name(desc)": [
+        "\u540d\u524d\uff08\u964d\u9806\uff09"
+      ],
+      "%dDay Before": [
+        "%d\u65e5\u524d"
+      ],
+      "%dDay After": [
+        "%d\u65e5\u5f8c"
+      ],
+      "Edit %s": [
+        "%s\u3092\u7de8\u96c6"
+      ],
+      "License": [
+        "\u30e9\u30a4\u30bb\u30f3\u30b9"
+      ],
+      "License Key": [
+        "\u30e9\u30a4\u30bb\u30f3\u30b9\u30ad\u30fc"
+      ],
+      "Activated!": [
+        "\u30a2\u30af\u30c6\u30a3\u30d9\u30fc\u30c8\u3057\u307e\u3057\u305f\uff01"
+      ],
+      "Verify Key": [
+        "\u30ad\u30fc\u3092\u78ba\u8a8d"
+      ],
+      "You have deactivated the key.": [
+        "\u30ad\u30fc\u3092\u7121\u52b9\u306b\u3057\u307e\u3057\u305f\u3002"
+      ],
+      "Remove Key": [
+        "\u30ad\u30fc\u3092\u524a\u9664"
+      ],
+      "Enter two-letter ISO country code.": [
+        "2\u6587\u5b57\u306eISO\u56fd\u30b3\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+      ],
+      "This field is less than or equal to %d.": [
+        "\u3053\u306e\u9805\u76ee\u306f%d\u4ee5\u4e0b\u306b\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+      ],
+      "Input Fields": [
+        "\u5165\u529b\u9805\u76ee"
+      ],
+      "You can customize the fields your customers enter.Hidden fields will not be displayed on the Administration Screens.": [
+        "\u9867\u5ba2\u304c\u5165\u529b\u3059\u308b\u9805\u76ee\u3092\u30ab\u30b9\u30bf\u30de\u30a4\u30ba\u3067\u304d\u307e\u3059\u3002\u975e\u8868\u793a\u306b\u3057\u305f\u9805\u76ee\u306f\u3001\u7ba1\u7406\u753b\u9762\u306b\u3082\u8868\u793a\u3055\u308c\u307e\u305b\u3093\u3002"
+      ],
+      "Default Country Code": [
+        "\u30c7\u30d5\u30a9\u30eb\u30c8\u56fd\u30b3\u30fc\u30c9"
+      ],
+      "If you use international phone number, enter two-letter ISO country code(like US, JP), otherwise blank.": [
+        "\u56fd\u969b\u96fb\u8a71\u756a\u53f7\u3092\u4f7f\u3046\u5834\u5408\u306f\u30012\u6587\u5b57\u306eISO\u56fd\u30b3\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\uff08\u4f8b US, JP\uff09\u3002 \u5229\u7528\u3057\u306a\u3044\u5834\u5408\u306f\u7a7a\u767d\u306b\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+      ],
+      "URL Settings": [
+        "URL\u8a2d\u5b9a"
+      ],
+      "Terms Of Service URL": [
+        "\u5229\u7528\u898f\u7d04URL"
+      ],
+      "Booking Cancel URL": [
+        "\u4e88\u7d04\u30ad\u30e3\u30f3\u30bb\u30ebURL"
+      ],
+      "Others": [
+        "\u305d\u306e\u4ed6"
+      ],
+      "Delete Content When Delete This Plugin": [
+        "\u30d7\u30e9\u30b0\u30a4\u30f3\u524a\u9664\u6642\u306b\u30c7\u30fc\u30bf\u3092\u524a\u9664"
+      ],
+      "Site Key": [
+        "\u30b5\u30a4\u30c8\u30ad\u30fc"
+      ],
+      "Secret Key": [
+        "\u30b7\u30fc\u30af\u30ec\u30c3\u30c8\u30ad\u30fc"
+      ],
+      "Google Calendar & Google Meet": [
+        "Google \u30ab\u30ec\u30f3\u30c0\u30fc & Google Meet"
+      ],
+      "Google Client ID": [
+        "Google \u30af\u30e9\u30a4\u30a2\u30f3\u30c8 ID"
+      ],
+      "Google Client Secret": [
+        "Google \u30af\u30e9\u30a4\u30a2\u30f3\u30c8\u30b7\u30fc\u30af\u30ec\u30c3\u30c8"
+      ],
+      "Enable Google Meet": [
+        "Google Meet\u3092\u4f5c\u6210\u3059\u308b"
+      ],
+      "Zoom Account ID": [
+        "Zoom\u30a2\u30ab\u30a6\u30f3\u30c8 ID"
+      ],
+      "Zoom Client ID": [
+        "Zoom\u30af\u30e9\u30a4\u30a2\u30f3\u30c8 ID"
+      ],
+      "Zoom Client Secret": [
+        "Zoom\u30af\u30e9\u30a4\u30a2\u30f3\u30c8\u30b7\u30fc\u30af\u30ec\u30c3\u30c8"
+      ],
+      "Sender Email": [
+        "\u9001\u4fe1\u8005\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9"
+      ],
+      "Sender Name": [
+        "\u9001\u4fe1\u8005\u540d"
+      ],
+      "Bcc Emails(Comma Separated)": [
+        "Bcc\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\uff08\u30b3\u30f3\u30de\u533a\u5207\u308a\uff09"
+      ],
+      "Email Service": [
+        "\u30e1\u30fc\u30eb\u30b5\u30fc\u30d3\u30b9"
+      ],
+      "Smtp Secure": [
+        "\u30bb\u30ad\u30e5\u30a2"
+      ],
+      "Smtp Username": [
+        "\u30e6\u30fc\u30b6\u30fc\u540d"
+      ],
+      "Smtp Password": [
+        "\u30d1\u30b9\u30ef\u30fc\u30c9"
+      ],
+      "Symbol": [
+        "\u901a\u8ca8\u8a18\u53f7"
+      ],
+      "Price Symbol Position": [
+        "\u901a\u8ca8\u8a18\u53f7\u306e\u4f4d\u7f6e"
+      ],
+      "Price Thousand Separator": [
+        "\u4fa1\u683c\u306e\u5343\u533a\u5207\u308a\u306e\u8a18\u53f7"
+      ],
+      "Price Decimals": [
+        "\u4fa1\u683c\u306e\u5c0f\u6570\u70b9\u4ee5\u4e0b\u306e\u6841\u6570"
+      ],
+      "Price Decimal Separator": [
+        "\u4fa1\u683c\u306e\u5c0f\u6570\u533a\u5207\u308a\u306e\u8a18\u53f7"
+      ],
+      "Currency": [
+        "\u901a\u8ca8"
+      ],
+      "Stripe Test Mode": [
+        "Stripe\u30c6\u30b9\u30c8\u30e2\u30fc\u30c9"
+      ],
+      "Live Publishable Key": [
+        "\u672c\u756a\u74b0\u5883\u306e\u516c\u958b\u53ef\u80fd\u30ad\u30fc"
+      ],
+      "Live Secret Key": [
+        "\u672c\u756a\u74b0\u5883\u306e\u30b7\u30fc\u30af\u30ec\u30c3\u30c8\u30ad\u30fc"
+      ],
+      "Test Publishable Key": [
+        "\u30c6\u30b9\u30c8\u74b0\u5883\u306e\u516c\u958b\u53ef\u80fd\u30ad\u30fc"
+      ],
+      "Test Secret Key": [
+        "\u30c6\u30b9\u30c8\u74b0\u5883\u306e\u30b7\u30fc\u30af\u30ec\u30c3\u30c8\u30ad\u30fc"
+      ],
+      "General": [
+        "\u4e00\u822c"
+      ],
+      "Payments": [
+        "\u652f\u6255\u3044"
+      ],
+      "Integrations": [
+        "\u30a4\u30f3\u30c6\u30b0\u30ec\u30fc\u30b7\u30e7\u30f3"
+      ],
+      "If you connect to Zoom, you can set Zoom User.": [
+        "Zoom\u3068\u9023\u643a\u3059\u308b\u3068Zoom\u30e6\u30fc\u30b6\u30fc\u3092\u8a2d\u5b9a\u3067\u304d\u307e\u3059\u3002"
+      ],
+      "Google Calendar": [
+        "Google\u30ab\u30ec\u30f3\u30c0\u30fc"
+      ],
+      "If you connect to Google, you can sign in with Google.": [
+        "Google\u3068\u9023\u643a\u3059\u308b\u3068Google\u306b\u30ed\u30b0\u30a4\u30f3\u3067\u304d\u307e\u3059\u3002"
+      ],
+      "Display Name": [
+        "\u8868\u793a\u540d"
+      ],
+      "Role": [
+        "\u6a29\u9650\u30b0\u30eb\u30fc\u30d7"
+      ]
+    }
+  }
+}

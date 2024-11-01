@@ -1,0 +1,43 @@
+/**
+ * bootstrapのカスタマイズ方法
+ * https://getbootstrap.jp/docs/5.3/customize/sass/
+ */
+
+// Bootstrap Functions first
+@import "~bootstrap/scss/functions";
+
+// Bootstrapの変数のカスタマイズ
+$primary: #0a58ca; // $blue-600 と同じ
+$danger: #b02a37; // $red-600 と同じ
+
+// 必須のBootstrapのインポート
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/variables-dark";
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/root";
+
+// 任意のコンポーネントをインポート
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/containers";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/utilities/api";
+
+.yoyaku {
+  // 予約フォーム
+  .front-select-period {
+    color: black;
+  }
+
+  .front-select-period:hover {
+    color: white;
+  }
+
+  .yoyaku-accept-terms-of-service input[type="checkbox"] {
+    position: relative;
+    bottom: -9px;
+    width: 16px;
+    height: 16px;
+  }
+}

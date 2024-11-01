@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "yoyaku/event",
+  "version": "0.1.0",
+  "title": "Yoyaku - Event",
+  "category": "yoyaku-blocks",
+  "description": "Display a event booking form.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "eventId": {
+      "type": "integer"
+    }
+  },
+  "textdomain": "yoyaku-manager",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js",
+  "style": "file:./style.scss"
+}
